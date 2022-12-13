@@ -1,0 +1,6 @@
+dataset: mini-imagenet
+dataset_args: {split: test}
+
+# load: /home/pym/code/homework/neuroscience/few-shot-meta-baseline/save/meta_mini-imagenet-1shot_meta-baseline-resnet12_1/max-va.pth
+load_encoder: /home/pym/code/homework/neuroscience/few-shot-meta-baseline/save/classifier_mini-imagenet_resnet12_snn/max-va.pth
+# Replace load with load_encoder for loading the encoder only (e.g. for testing Classifier-Baseline)
